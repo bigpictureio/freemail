@@ -1,6 +1,6 @@
 {
-  "name": "freemail",
-  "version": "1.5.0",
+  "name": "@bigpicture/freemail",
+  "version": "1.5.1",
   "description": "A database of free and disposable email domains and a handy Node.js module for querying it.",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,9 @@
   },
   "author": "Will White <will@mapbox.com>",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.bigpicture.io"
+  },
   "devDependencies": {
     "tape": "^3.5.0"
   },
